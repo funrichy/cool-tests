@@ -1,0 +1,19 @@
+# src/Cooltests/BlogBundle/Resources/config/routing.yml
+CooltestsBlogBundle_homepage:
+  pattern: /
+  defaults: { _controller: CooltestsBlogBundle:Page:index }
+  requirements:
+    _method: GET
+
+CooltestsBlogBundle_about:
+  pattern: /about
+  defaults: { _controller: CooltestsBlogBundle:Page:about }
+  requirements:
+    _method: GET
+
+CooltestsBlogBundle_contact:
+  pattern: /contact
+  defaults: { _controller: CooltestsBlogBundle:Page:contact }
+  requirements:
+    _method: GET
+
